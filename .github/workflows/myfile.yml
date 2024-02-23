@@ -7,8 +7,6 @@ jobs:
         runs-on: self-hosted
 
         name: HCL OneTest Server
-        javax.net.ssl.trustStore: D:\TrustStore\cacerts
-           Trust Store Password: paransha
         steps:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@main
@@ -19,3 +17,5 @@ jobs:
             project: OTSUpskilling
             branch: main
             assetId: a685cabe-4b1d-4ef7-85ca-be4b1ddef7bf
+            javax.net.ssl.trustStore: D:\TrustStore\cacerts
+            javax.net.ssl.trustStorePassword: paransha 
