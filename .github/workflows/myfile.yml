@@ -5,7 +5,10 @@ on: workflow_dispatch
 jobs:
     OTS-Action:
         runs-on: self-hosted
+
         name: HCL OneTest Server
+        javax.net.ssl.trustStore: D:\TrustStore\cacerts
+           Trust Store Password: paransha
         steps:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@main
