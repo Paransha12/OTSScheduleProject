@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customreport id="79570e2f:18dd5c8f14e:-7aa8" name="CustomByParansha">
+    <segment attach="Attachment" format="PDF" report="DetailedTestSuite"
+        text="Here are the test results from %%SUITE/NAME%%&#xa;The test was run in %%ENVIRONMENT/NAME%%" type="Report"/>
+</customreport>

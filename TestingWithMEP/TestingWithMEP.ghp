@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20231201_0211" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 16 February 2024"
+    creationVersion="11.0.0" domain="default" extDocPrefix=""
+    name="TestingWithMEP" owner="paransha.vyas"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="0000018d-b1a3-830b-0002-bd14452e1c4c">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings
+        ghRepositoryURL="https://lp1-ap-52016888.prod.hclpnp.com:5443/RTCP/"
+        trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!6d98" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!cc88" dpsUser=""
+                driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                password="#com.ghc.1!298a12AB4AD44464E354A2CA7220112355720CED"
+                url="jdbc:sqlserver://localhost:1433;databasename=APITesting; trustServerCertificate=true" user="Paransha">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!9bff"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="Paransha"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+                <proxy useProxy="false"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="true" hostname="10.14.84.68.nip.io"
+            port="443" projectId="1500" projectName="OTSUpskilling"
+            publishResults="true" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!7a0f" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!57fa" ADtrustStorePath=""
+        autoLogin="true" host="US-PNP-DC03"
+        permFactId="rtcp.permissions.factory.none" port="389" pswd="GtFn8IvB6Jn/JdNs0UoyfVLo+sW7m7AGvNAlpwoXTx8=$KfeQf4e0f+WB1UK4v/Jl/W2vewytxmH0tjVwTvH2OyI="/>
+    <resultPublishers disableAll="false">
+        <publisher enabled="true"
+            from="reportpublisher@integration.tester.com"
+            host="localhost" name="Paransha" password="#com.ghc.1!f68f"
+            port="8088"
+            subject="Test %%SUITE/RESULT%% in %%SUITE/NAME%%"
+            type="EMAIL" user="">
+            <recipients address="paransha.vyas@hcl.com"/>
+        </publisher>
+    </resultPublishers>
+</_c>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1708089871643"
+    createdUser="paransha.vyas"
+    id="422e96c8:18db1f4bfc0:-7c0d:-2046364207:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1708089871643" updatedUser="paransha.vyas" version="1.1">
+    <syncdetails
+        compare="CalculatorPortBindingService/CalculatorPortBindingSoap11"
+        lastSynced="1708089871643" sourceid="422e96c8:18db1f4bfc0:-7c0d">
+        <sourcepath path="CalculatorPortBindingService/CalculatorPortBindingSoap11"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="186,143,247"/>
+    </resourceConfig>
+</editableResource>

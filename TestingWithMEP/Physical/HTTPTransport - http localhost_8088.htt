@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1708088201903"
+    createdUser="paransha.vyas" id="422e96c8:18db1f4bfc0:-7e9e"
+    selfDescribing="HTTPTransport - http localhost:8088"
+    type="http_transport" updatedTimestamp="1708088653679"
+    updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="HTTPTransport" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!3787" credPreemptive="false"
+            credType="0" credUser="" httpHost="localhost"
+            httpNtlmDomain="" httpPort="8088" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!9706" httpProxyPort=""
+            httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            proxyType="http.proxy.default" recType="PROXY"
+            useSsl="false" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!ee59"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1708089870817"
+    createdUser="paransha.vyas" id="422e96c8:18db1f4bfc0:-7c0d"
+    selfDescribing="calculator"
+    syncSourceDetails="71567e6:18db1a383c8:-7f67"
+    type="wsdl_service_component" updatedTimestamp="1708089870825"
+    updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig>
+        <wsdl id="422e96c8:18db1f4bfc0:-7c0c" name="calculator"/>
+    </resourceConfig>
+</editableResource>

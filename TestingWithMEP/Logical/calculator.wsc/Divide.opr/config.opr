@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1708089871576"
+    createdUser="paransha.vyas"
+    id="422e96c8:18db1f4bfc0:-7c0d:-854238970:-807255066"
+    type="operation_resource" updatedTimestamp="1708089871576"
+    updatedUser="paransha.vyas" version="1.0">
+    <syncdetails compare="CalculatorPortBinding/Divide"
+        lastSynced="1708089871576" sourceid="422e96c8:18db1f4bfc0:-7c0d">
+        <sourcepath path="CalculatorPortBinding/Divide"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="90,170,250"
+        dependencies="422e96c8:18db1f4bfc0:-7c0c,422e96c8:18db1f4bfc0:-7c0d:-2046364207:408339756"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="422e96c8:18db1f4bfc0:-7c0d:-2046364207:408339756"
+        maxTime="0" mepEndSchemaID="422e96c8:18db1f4bfc0:-7c0c"
+        mepEndSchemaNodeFormatter="doc_lit"
+        mepEndSchemaroot="Divide___OUTPUT___DivideResponse"
+        mepEndUsed="true" mepStartSchemaID="422e96c8:18db1f4bfc0:-7c0c"
+        mepStartSchemaNodeFormatter="doc_lit"
+        mepStartSchemaroot="Divide___INPUT___DivideRequest"
+        mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="422e96c8:18db1f4bfc0:-7c0d:-2046364207:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <nodeProcessor id="doc_lit">
+                <extension enabled="false" id="soap.message">
+                    <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+                </extension>
+                <extension enabled="false" id="ws.security"/>
+                <extension enabled="false" id="soap.headers"/>
+                <extension enabled="false" id="ws.addressing"/>
+            </nodeProcessor>
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="POST" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/RTCP/examples/calculator/calculatorService/" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/RTCP/examples/calculator/calculatorService/" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c name="SOAPAction" type="7"
+                        value="&quot;Divide&quot;" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="&quot;Divide&quot;" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="POST"
+                URL="/RTCP/examples/calculator/calculatorService/"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="true" filterMethod="true" filterResourcePath="true">
+                <filterHeadersList>
+                    <header name="SOAPAction" type="7" value="&quot;Divide&quot;"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>
