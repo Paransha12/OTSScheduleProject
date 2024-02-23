@@ -1,0 +1,202 @@
+name: PerformanceOTSProject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /PerformanceOTSProject/src
+        type: javaClasspath
+  - name: BirdsCollection.recdata
+  - name: BirdsCollection.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /PerformanceOTSProject/BirdsCollection.recdata
+        type: recsessionRecdata
+  - name: BirdsCollection.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EED235279AF370F304B06636356238
+    dependencies: 
+      - path: /PerformanceOTSProject/BirdsCollection.recsession
+        type: testRecsession
+  - name: BirdsCollection_1708683647046.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1708683647046
+      tags: 
+      testId: A1EED235279AF370F304B06636356238
+      testName: BirdsCollection
+    dependencies: 
+      - path: /PerformanceOTSProject/BirdsCollection.testsuite
+        type: statsSessionTest
+      - path: /PerformanceOTSProject/BirdsCollection_1708683647046_orch!system.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/BirdsCollection_1708683647046_orch!system.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/BirdsCollection_1708683647046_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/BirdsCollection_1708683647046_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/BirdsCollection_1708683647676.executiondlr
+        type: statsSessionAsset
+  - name: BirdsCollection_1708683647046_orch!system.mstats
+  - name: BirdsCollection_1708683647046_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BirdsCollection_1708683647046_perf!localhost.mstats
+  - name: BirdsCollection_1708683647046_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BirdsCollection_1708683647676.executiondlr
+  - name: CatsCollection.recdata
+  - name: CatsCollection.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /PerformanceOTSProject/CatsCollection.recdata
+        type: recsessionRecdata
+  - name: CatsCollection.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EED2387D5E07E0F304B06636356238
+    dependencies: 
+      - path: /PerformanceOTSProject/CatsCollection.recsession
+        type: testRecsession
+  - name: CatsCollection_1708685092585.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1708685092585
+      tags: 
+      testId: A1EED2387D5E07E0F304B06636356238
+      testName: CatsCollection
+    dependencies: 
+      - path: /PerformanceOTSProject/CatsCollection.testsuite
+        type: statsSessionTest
+      - path: /PerformanceOTSProject/CatsCollection_1708685092585_orch!system.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/CatsCollection_1708685092585_orch!system.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/CatsCollection_1708685092585_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/CatsCollection_1708685092585_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/CatsCollection_1708685092779.executiondlr
+        type: statsSessionAsset
+  - name: CatsCollection_1708685092585_orch!system.mstats
+  - name: CatsCollection_1708685092585_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CatsCollection_1708685092585_perf!localhost.mstats
+  - name: CatsCollection_1708685092585_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CatsCollection_1708685092779.executiondlr
+  - name: ReptilesCollection.recdata
+  - name: ReptilesCollection.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /PerformanceOTSProject/ReptilesCollection.recdata
+        type: recsessionRecdata
+  - name: ReptilesCollection.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EED2358F7B5BB0F304B06636356238
+    dependencies: 
+      - path: /PerformanceOTSProject/ReptilesCollection.recsession
+        type: testRecsession
+  - name: ReptilesCollection_1708684050369.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1708684050369
+      tags: 
+      testId: A1EED2358F7B5BB0F304B06636356238
+      testName: ReptilesCollection
+    dependencies: 
+      - path: /PerformanceOTSProject/ReptilesCollection.testsuite
+        type: statsSessionTest
+      - path: /PerformanceOTSProject/ReptilesCollection_1708684050369_orch!system.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/ReptilesCollection_1708684050369_orch!system.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/ReptilesCollection_1708684050369_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/ReptilesCollection_1708684050369_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/ReptilesCollection_1708684050558.executiondlr
+        type: statsSessionAsset
+  - name: ReptilesCollection_1708684050369_orch!system.mstats
+  - name: ReptilesCollection_1708684050369_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ReptilesCollection_1708684050369_perf!localhost.mstats
+  - name: ReptilesCollection_1708684050369_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ReptilesCollection_1708684050558.executiondlr
+  - name: VUForpets.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.0.0
+    properties: 
+      description: 'Stages:
+
+	users=10; duration=Run Until Finished
+
+Bird: Group Size 50.0 percent
+
+	Test(s): BirdsCollection
+
+Reptile: Group Size 50.0 percent
+
+	Test(s): ReptilesCollection
+
+'
+      name: VUForpets
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EED2355FB681C0F304B06636356238
+    dependencies: 
+      - path: /PerformanceOTSProject/BirdsCollection.testsuite
+        type: scheduleInvokedTest
+      - path: /PerformanceOTSProject/ReptilesCollection.testsuite
+        type: scheduleInvokedTest
+  - name: VUForpets_1708684809888.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1708684809888
+      tags: 
+      testId: A1EED2355FB681C0F304B06636356238
+      testName: VUForpets
+    dependencies: 
+      - path: /PerformanceOTSProject/VUForpets.testsuite
+        type: statsSessionTest
+      - path: /PerformanceOTSProject/VUForpets_1708684809888_orch!system.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/VUForpets_1708684809888_orch!system.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/VUForpets_1708684809888_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/VUForpets_1708684809888_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /PerformanceOTSProject/VUForpets_1708684891610.executiondlr
+        type: statsSessionAsset
+  - name: VUForpets_1708684809888_orch!system.mstats
+  - name: VUForpets_1708684809888_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VUForpets_1708684809888_perf!localhost.mstats
+  - name: VUForpets_1708684809888_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: VUForpets_1708684891610.executiondlr
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: BirdsCollection_Test_A1EED235279AF370F304B06636356238.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: CatsCollection_Test_A1EED2387D5E07E0F304B06636356238.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: ReptilesCollection_Test_A1EED2358F7B5BB0F304B06636356238.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VUForpets_Schedule_A1EED2355FB681C0F304B06636356238.java
+            type: com.ibm.rational.test.lt.generatedCode
