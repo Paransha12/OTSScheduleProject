@@ -10,8 +10,8 @@ jobs:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@main
            with:
-            serverUrl: https://10.14.84.68.nip.io/
-            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzYmJjODMxMy05N2U0LTQ2ZDMtYTc2YS00Mzc0OTEwY2EwOTQifQ.eyJpYXQiOjE3MDg2OTYxMTMsImp0aSI6ImQ3ZDQ3YzZhLTY2Y2ItNDVjMC1hMDdiLWFiM2U0OTA0ZGIzYyIsImlzcyI6Imh0dHBzOi8vMTAuMTQuODQuNjgubmlwLmlvL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovLzEwLjE0Ljg0LjY4Lm5pcC5pby9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiMjQ4ODEyODAtMDMzNS00ZDNlLTkwNDctM2FmZDQ0YzFmMGU3IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiMWVhYTJmZWQtMWVlYy00N2MwLWEzMjctMTgyNmIyMmU4MmNmIiwic2NvcGUiOiJwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIiwic2lkIjoiMWVhYTJmZWQtMWVlYy00N2MwLWEzMjctMTgyNmIyMmU4MmNmIn0.-kk1YJENfBUcK80vQQ3lwu8mj1jHsG-EHlwpW_Nf5X8
+            serverUrl: https://10.14.84.68.nip.io
+            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzYmJjODMxMy05N2U0LTQ2ZDMtYTc2YS00Mzc0OTEwY2EwOTQifQ.eyJpYXQiOjE3MDg2OTYxODgsImp0aSI6IjZiZWMyNDY0LWU1M2UtNDEyOS1iYjkxLWMyMGRhNzBjMjhhZCIsImlzcyI6Imh0dHBzOi8vMTAuMTQuODQuNjgubmlwLmlvL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovLzEwLjE0Ljg0LjY4Lm5pcC5pby9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiMjQ4ODEyODAtMDMzNS00ZDNlLTkwNDctM2FmZDQ0YzFmMGU3IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiNzM0NjlhZWYtM2EzOC00OWFkLTg2ZjUtOGZlNGZlYWVhNjE2Iiwic2NvcGUiOiJwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIiwic2lkIjoiNzM0NjlhZWYtM2EzOC00OWFkLTg2ZjUtOGZlNGZlYWVhNjE2In0.ivqAK0-RoxlZDxp8KFtEswuik5nEDvZUlfzWvowzeDg
             teamspace: Initial
             project: OTSUpskilling
             branch: main
